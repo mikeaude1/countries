@@ -1,0 +1,14 @@
+{
+    "angular-schematics.schematicsDefaultOptions": {
+        "angular-*": {
+            "externalTemplate": true,
+            "inlineStyle": true,
+            "style": "css",
+            "skipStyle": true
+        },
+        "angular-component": {
+            "skipChangeDetectionOnPush": true,
+            "skipDisplayBlock": true
+        }
+    }
+}
