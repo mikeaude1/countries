@@ -20,6 +20,13 @@ import { CountryTableComponent } from './components/countryTable/countryTable.co
   ],
   imports: [
     CommonModule,CountriesRoutingModule,SharedModule
+  ],
+  exports:[
+    ByCapitalPageComponent,
+    ByCountryPageComponent,
+    ByRegionPageComponent,
+    CountryPageComponent,
+    CountryTableComponent
   ]
 })
 export class CountriesModule { }
